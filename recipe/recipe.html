@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="recipe.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <h1 class="main_title">Recipe APP</h1>
+    <div class="search">
+      <input id="DishInput" type="text" placeholder="What do you wish?" spellcheck="false"> 
+      <button onclick="searchRecipe()" class="srch_bttn">
+        <img src="loupe.png" alt="Search" class="srch_logo">
+      </button>
+    </div>
+  </div>
+
+  <!-- Recipe List -->
+  <div id="recipeList" class="recipe-list"></div>
+
+  <!-- Recipe Details Modal -->
+  <div id="recipeDetails" class="recipe-details hidden">
+    <div class="content">
+      <button class="close-btn" onclick="closeRecipeDetails()">Close</button>
+      <div id="recipeContent"></div>
+    </div>
+  </div>
+
+  <script src="recipe.js"></script>
+</body>
+</html>
