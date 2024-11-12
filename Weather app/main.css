@@ -1,0 +1,341 @@
+body {
+    background-color: #202b5a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.main {
+    width: 1120px;
+    height: 800px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    background-size: cover;
+    color: #fff;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search {
+    width: 60%;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 270px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 40px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.srch_bttn {
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+}
+
+.srch_logo {
+    width: 60px;
+    height: 60px;
+}
+
+.Suret {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+
+.Humidity_Icon,
+.Wind_Icon,
+.sunset,
+.sunrise {
+    width: 150px;
+    height: 150px;
+}
+
+.main2 {
+    width: 300px;
+    height: 800px;
+    margin: 50px auto 0;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0px 0px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.days5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+.days {
+    height: 156px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 80px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    background-size: cover;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.main2_suret {
+    width: auto;
+    height: 50px;
+}
+
+.hum1,
+.fls_like,
+.wind1 {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.temp1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.on {
+    margin: 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    line-height: 0.2;
+}
+
+.dow {
+    font-size: 20px;
+}
+
+.humidity1_min {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.temperatuuuu {
+    width: 140px;
+    border-right: 1px solid #ffffff;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.temp-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.temp {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.Description {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1500px) {
+    .main2 {
+        width: 100%;
+    }
+
+    .days5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .details {
+        gap: 80px; 
+    }
+}
+
+@media (max-width: 1000px) {
+    .main {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .first {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        width: 80%;
+        margin: 2em auto;
+        margin-bottom: 20px;
+    }
+
+    .main2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .weather h1,
+    .weather h2 {
+        font-size: 60px;
+    }
+
+    .details {
+        gap: 30px;
+    }
+
+    .temp-description {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .temp {
+        font-size: 60px;
+    }
+
+    .Description {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .search {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }    .details {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .temp-description {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .temp {
+        font-size: 50px;
+    }
+
+    .Description {
+        font-size: 25px;
+    }
+
+    .main2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .days {
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 400px) { 
+    .main {
+        padding: 10px;
+    }
+
+    .search input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .srch_bttn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .weather h1 {
+        font-size: 45px;
+    }
+
+    .weather h2 {
+        font-size: 25px;
+    }
+
+    .temp {
+        font-size: 40px;
+    }
+
+    .Description {
+        font-size: 20px;
+    }
+
+
+
+    
+
+    .details {
+        gap: 15px;
+    }
+}
