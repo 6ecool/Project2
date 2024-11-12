@@ -57,8 +57,7 @@ AND ALL THREE SITES ARE ADAPTIVE FOR ALL DEVICES AND WITH A UNIQUE AND SAME DESI
 **Recipe App Screenshots**  
 ![Recipe App Screenshot 1](https://github.com/6ecool/Project2/blob/main/Screenshots/Снимок%20экрана%202024-11-12%20в%2023.11.32.png?raw=true)  
 
-![Movie App Screenshot 3](https://github.com/6ecool/Project2/blob/main/Screenshots/Снимок%20экрана%202024-11-12%20в%2023.18.50.png?raw=true)
-![Weather App Screenshot 1](https://github.com/6ecool/Project2/blob/main/Screenshots/Снимок%20экрана%202024-11-12%20в%2018.39.47%20(2).png?raw=true)  
+![Movie App Screenshot 3](https://github.com/6ecool/Project2/blob/main/Screenshots/Снимок%20экрана%202024-11-12%20в%2023.18.50.png?raw=true)  
 
 **Movie App Screenshots**  
 ![Recipe App Screenshot 2](https://github.com/6ecool/Project2/blob/main/Screenshots/Снимок%20экрана%202024-11-12%20в%2023.12.34.png?raw=true)
